@@ -1,6 +1,6 @@
 var captionLength = 0;
 var caption = '';
-var cursorBlink = '';
+var cursorBlink = ''; 
 
 $(document).ready(function() {
   cursorBlink = setInterval('cursorAnimation()', 600);
